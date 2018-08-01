@@ -1,6 +1,9 @@
 'use strict';
 
-alert('Do you know Jeremy?');
+var user = prompt('Welcome, what is your name?');
+console.log('User name is ' + user);
+
+alert(user + ', let\'s start the guessing game!');
 var answerOne = prompt('Am I an only child? ').toLowerCase();
 console.log('User answer to Q1: ' + answerOne);
 
