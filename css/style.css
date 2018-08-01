@@ -1,4 +1,28 @@
+body {
+    background-color:#f4f4d1;
+}
+
 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    
     text-align: center;
-    color: aqua;
+    color: #ea5323;
+    text-transform:uppercase;
+    letter-spacing: 0.2em;
+
+}
+p {
+    color: #4646d2;
+    text-indent: 20px;
+    font-family: monospace;
+    font-size: large;
+}
+
+h2 {
+    font-family:fantasy;
+    font-weight: bolder;
+    color: #ff5722;
+    text-indent: 5px;
 }
