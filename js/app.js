@@ -19,7 +19,7 @@ function askUserQuestionsFunction() {
 
   for(var i = 0; i < questionsArray.length; i++) {
     var userAnswer = prompt(questionsArray[i]).toLowerCase();
-    console.log('user answer for Q ' + (i + 1));
+    console.log('User answer for Q' + (i + 1) + ' ' + userAnswer);
     if (userAnswer === answersWordsArr[i] || userAnswer === answersCharArr[i]) {
       alert('You are correct!');
       correctAns++;
