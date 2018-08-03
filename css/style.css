@@ -9,7 +9,8 @@ h1 {
     text-align: center;
     color: #f25929;
     text-transform:uppercase;
-    letter-spacing: 0.3em;
+    word-spacing: 96px;
+    letter-spacing: 15px;
     margin: 30px;
 }
 li {
@@ -36,7 +37,11 @@ h2.countries-title {
     text-transform: uppercase;
 }
 
-#countries {
+ul {
+    text-align: center;
+}
+
+.countries li {
     color: #795548;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

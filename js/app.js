@@ -16,13 +16,13 @@ function askUserQuestionsFunction() {
   ];
   var answersWordsArr = ['no', 'yes', 'no', 'yes', 'no'];
   var answersCharArr = ['n', 'y', 'n', 'y', 'n'];
+
   for(var i = 0; i < questionsArray.length; i++) {
     var userAnswer = prompt(questionsArray[i]).toLowerCase();
-    console.log('user answer fo Q ' + i + 1);
+    console.log('user answer for Q ' + (i + 1));
     if (userAnswer === answersWordsArr[i] || userAnswer === answersCharArr[i]) {
       alert('You are correct!');
-      // correctAns++;
-      return;
+      correctAns++;
     } else if (userAnswer === '') {
       alert('Invalid response');
     } else {
@@ -42,7 +42,7 @@ function askUserNumberQuestionFunction() {
     }
     else if(userAnswer > 6) {
       alert('Too high! Try again.');
-    } 
+    }
     else if(userAnswer === 6) {
       alert('You are correct!');
       correctAns += 1;
@@ -61,7 +61,7 @@ function askUserStateQuestion() {
   for(var j = 6; j > 0; j--) {
     var answerSeven = prompt('Which states have I lived in? You have ' + j + ' attempts remaining.').toLowerCase();
     console.log('User answer to Q6: ' + answerSeven);
-    
+
     if (states.includes(answerSeven)) {
       alert('You are correct! I have lived in Georgia, Washington, and South Carolina.');
       correctAns += 1;
