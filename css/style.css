@@ -1,7 +1,5 @@
 body {
-    
-    background-image: url('/Users/jcbeck/setup-practice/code-201-about-me/css/banff.jpg');
-    background-size: 100%;
+    background-color:#f3f3ad;
 }
 
 h1 {
@@ -16,7 +14,7 @@ h1 {
     margin: 30px;
 }
 li {
-    color: #ffefef;
+    color: #636375;
     text-indent: 20px;
     font-family: sans-serif;
     font-size: 17px;
@@ -27,7 +25,7 @@ h2 {
     font-size: 1.7em;
     font-family:serif;
     font-weight: bolder;
-    color:#ff5e2c;
+    color: #df572c;
     text-indent: 20px;
     text-size-adjust:  1em;
     margin: 21px;
@@ -44,7 +42,7 @@ ul {
 }
 
 .countries li {
-    color: #FFEB3B;
+    color: #795548;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: inline-block;
